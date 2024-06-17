@@ -1,0 +1,12 @@
+Step 1 : Create react app 
+Step 2 : Configure Tailwind CSS for this project
+Step 3 : Install tailwind, React router DOM, React icons, React Redux toolkit for this project
+Step 4.1 : Create required folders and file structure :
+        here we need folders such as: 
+            - Components -> it will contain all the components in the project ( Example: Navbar, Product, Cartitem )
+            - pages -> it will contain all the pages in the project ( Example:Home, Cart )
+            - redux -> it will contain all the functions required to maintain state in the form of slices 
+Step 4.2 : In react folder create another folder name Slices which contain all the slices of this project
+           And also create one file name as store.js which contain all the slices of this project
+Step 5 : Wrap App component with provider in index.js file and pass store in provider parameter 
+Step 6 : Now your React app is linked to the Redux now write the react code in their respective files 
